@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1087304196749",
+    "firebase_url": "https://trial-a2d0a.firebaseio.com",
+    "project_id": "trial-a2d0a",
+    "storage_bucket": "trial-a2d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087304196749:android:02536f5112716f16deb8c4",
+        "android_client_info": {
+          "package_name": "com.example.trail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087304196749-2tn8nmthoi82kbvbinpqq7gcfdgilga6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6qxsZe5NHeWlfSyZWRovUjNNyUBZw7Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087304196749-2tn8nmthoi82kbvbinpqq7gcfdgilga6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
