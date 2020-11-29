@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -74,6 +73,13 @@ public class MainActivity extends AppCompatActivity {
                 signIn();
             }
         });
+        FirebaseUser firebaseUser=mAuth.getCurrentUser();
+
+        if(firebaseUser!=null)
+        {
+            startActivity(new Intent(MainActivity.this,logOut.class));
+
+        }
 
 
     }
@@ -153,13 +159,14 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
             }
+            
             else
             {
                 uPass.setError("Set Password");
             }
         }else if(email.isEmpty())
         {
-            uEmail.setError("Empty fiels not allowed");
+            uEmail.setError("Empty fields not allowed");
         }
         else
         {
