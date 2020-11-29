@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
             }
-            
+
             else
             {
                 uPass.setError("Set Password");
